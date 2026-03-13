@@ -1,0 +1,74 @@
+body{
+    margin:70px;
+    font-family: Helvetica, Bold;
+    background:#f5f5f5;
+    background-image: url(https://gagosian.com/media/images/exhibitions/2024/jean-michel-basquiat-venus/78KDeN_DoQZE_4800x4800.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    background-attachment: fixed; }
+
+h1{
+    margin-bottom:10px;
+    font-size: 70px;
+    color: #000000;
+}
+
+h2{
+    color: #000000;;
+    font-size: 70px;
+    text-align: right;
+}
+h3{
+    color: #000000;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+h3:nth-child(3):hover{
+    color: #681a1a;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+h3:nth-child(2):hover{
+    color: #681a1a;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+h3:nth-child(1):hover{
+    color: #681a1a;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+
+
+h4{ 
+    color: #000000;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 120px);
+    grid-auto-rows:120px;
+    gap:100px;
+}
+
+.gallery img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+.img-target:hover{ 
+  transition: transform 0.5s ease;
+width: 100%; /* Set the desired initial width */
+  height: 1005; /* Set the desired initial height */
+  overflow: hidden; /* Keeps the zoomed part inside the container's original dimensions */
+  margin: 0 auto;
+transform: scale(1.2);
+}
