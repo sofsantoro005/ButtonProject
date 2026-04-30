@@ -44,6 +44,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     aboutButton.addEventListener('click', () => {
         aboutPopup.style.display = 'flex';
+        aboutPopup.style.flexDirection = 'column';
+
     });
 
     aboutClose.addEventListener('click', () => {
@@ -58,6 +60,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     projectsButton.addEventListener('click', () => {
         projectsPopup.style.display = 'flex';
+        projectsPopup.style.flexDirection = 'column';
+
     });
 
     projectsClose.addEventListener('click', () => {
@@ -72,6 +76,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     exhibitionsButton.addEventListener('click', () => {
         exhibitionsPopup.style.display = 'flex';
+        exhibitionsPopup.style.flexDirection = 'column';
     });
 
     exhibitionsClose.addEventListener('click', () => {
@@ -86,6 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     contactButton.addEventListener('click', () => {
         contactPopup.style.display = 'flex';
+        contactPopup.style.flexDirection = 'column';
     });
 
     contactClose.addEventListener('click', () => {

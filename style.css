@@ -36,6 +36,7 @@ h1 {
 
 /* Gallery Layout */
 .gallery {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr; /* 2 columns */
     gap: 30px;
@@ -123,9 +124,9 @@ h1 {
 
 
 
-.about-popup {
+.popup {
     display:none;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -134,90 +135,16 @@ h1 {
     width: 100%;
     background-color: white;
     opacity: 0.9;
-    padding: 40px;
-  
-    max-width: 800px;
     margin: 0 auto;
-    padding: 40px;
     background: white;
     font-family: "Helvetica Neue", Arial, sans-serif;
     color: #111;
     line-height: 1.6;
 }
 
-
-.projects-popup {
-    display:none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-    width: 100%;
-    background-color: white;
-    opacity: 0.9;
-    padding: 40px;
-   
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    background: white;
-    font-family: "Helvetica Neue", Bold, sans-serif;
-    color: #111;
-    line-height: 1.6;
-
-}
-
-.exhibitions-popup {
-    display:none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-    width: 100%;
-    background-color: white;
-    opacity: 0.9;
-    padding: 40px;
- 
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    background: white;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    color: #111;
-    line-height: 1.6;
-
-}
-
-.contact-popup {
-    display:none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-    width: 100%;
-    background-color: white;
-    opacity: 0.9;
-    padding: 40px;
- 
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    background: white;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    color: #111;
-    line-height: 1.6;
-}
 
 .close-button {
-    position: absolute;
-    top: 750px;
-    right: 25px;
+
     cursor: pointer;
     font-size: 30px;
 }
